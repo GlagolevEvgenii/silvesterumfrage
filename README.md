@@ -1,1 +1,2 @@
-# silvesterumfrage
+# TUI Silvester-Studie — Static HTML Preview
+
