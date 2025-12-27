@@ -122,12 +122,10 @@ img {
 }
 
 .section {
-    padding-bottom: 15px
+    position: relative;
+    padding: 60px 0;
 }
 
-.section--padding-top {
-    padding-top: 30px
-}
 .hidden {
     display: none
 }

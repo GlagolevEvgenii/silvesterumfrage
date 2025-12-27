@@ -1,26 +1,27 @@
-@media(max-width: 767px)and (min-device-pixel-ratio: 2),(max-width: 767px)and (-webkit-min-device-pixel-ratio: 2),(max-width: 767px)and (min-resolution: 192dpi),(max-width: 767px)and (min-resolution: 2dpx) {
+@media(max-width: 767px)and (min-device-pixel-ratio: 2),(max-width: 767px)and (-webkit-min-device-pixel-ratio: 2),(max-width: 767px)and (min-resolution: 192dpi),(max-width: 767px)and (min-resolution: 2dppx) {
     .hero {
-        background-image:url("../img/tui-teaser-workation@2x.avif")
+        background-image:url("../img/header@2x.webp")
     }
 }
 
-@media(min-width: 768px)and (min-device-pixel-ratio: 2),(min-width: 768px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 768px)and (min-resolution: 192dpi),(min-width: 768px)and (min-resolution: 2dpx) {
+@media(min-width: 768px)and (min-device-pixel-ratio: 2),(min-width: 768px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 768px)and (min-resolution: 192dpi),(min-width: 768px)and (min-resolution: 2dppx) {
     .hero {
-        background-image:url("../img/tui-teaser-workation@2x.avif")
+        background-image:url("../img/header@2x.webp")
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px){
     .mobile-menu {
         display:block;
     }
+}
+
+@media screen and (max-width: 767px) {
+
     body {
         margin-top:47px;
     }
     .hero {
-        background-image: url("../img/tui-teaser-workation.avif")
-    }
-    .hero-title {
-        text-shadow:2px 2px 2px rgba(0,0,0,.27)
+        background-image: url("../img/header.webp")
     }
     .nav-footer--link {
         font-size:16px;
@@ -34,59 +35,51 @@
     }
 }
 
-@media(min-width: 767px) {
-    .section--padding-top {
-        padding-top:60px;
-    }
-
-    .tips-wrapper{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .tip-item--text{
-        max-width: 301px;
-    }
-    .section-gray{
-        padding-top: 200px;
-    }
-    .flag-wrapper{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .flag-wrapper{
-        grid-row-gap: 0;
-    }
-}
 
 @media screen and (min-width: 768px) {
-    .mobile-menu {
-        height:40%;
-    }
-    .mobile-menu__bar {
-        display:none;
-    }
-    .hamburger {
-        top:11px;
-        right: 52px;
-        display:none;
-    }
     .container {
         margin-left:auto;
         margin-right: auto;
         width: 100%;
     }
     .hero {
-        background-image:url("../img/tui-teaser-workation.avif");
+        background-image:url("../img/header.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         height: 466px;
     }
+
+    .hero-title {
+        font-size: 53px;
+        line-height: 58px;
+        font-weight: 700;
+    }
+    .hero-title span {
+        color: #FFF;
+        font-size: 43.017px;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .section {
+        padding: 80px 0;
+    }
+
+}
+@media(min-width: 1200px) {
     .logo-hero {
         display:block;
     }
-    .hero-title {
-        max-width:909px;
-        font-size: 53px;
-        line-height: 61px;
+    .mobile-menu {
+        height:40%;
+    }
+    .hamburger {
+        top:11px;
+        right: 52px;
+        display:none;
+    }
+    .mobile-menu__bar {
+        display:none;
     }
     .nav {
         display:-webkit-box;
@@ -96,8 +89,6 @@
         -ms-flex-align: center;
         align-items: center;
     }
-}
-@media(min-width: 1200px) {
     .section-title {
         font-size:30px;
     }
@@ -105,7 +96,7 @@
         max-width:1116px;
     }
     .hero {
-        background-image:url("../img/tui-teaser-workation.avif");
+        background-image:url("../img/header.webp");
     }
     .hero-title {
         max-width:1100px;
@@ -113,25 +104,13 @@
     .nav-list--link {
         line-height: 19px;
     }
+    .container_small {
+        max-width: 932px
+    }
 }
 
-@media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dpx) {
+@media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dppx) {
     .hero {
-        background-image:url("../img/tui-teaser-workation.avif")
-    }
-}
-@media(min-width: 1199px) {
-    .radio {
-        max-width:952px;
-        padding:4px 0px;
-        margin-bottom:20px;
-        height:45px;
-        padding:4px 0px
-    }
-    .radio input:checked {
-        height:45px;
-        margin-top:-5px;
-        padding-top:8px;
-        font-weight:700
+        background-image:url("../img/header.webp")
     }
 }

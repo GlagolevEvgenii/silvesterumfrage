@@ -1,4 +1,4 @@
-x.mobile-menu {
+.mobile-menu {
     display: none;
     position: fixed;
     top: 0;
@@ -225,7 +225,6 @@ x.mobile-menu {
     color: #092a5e;
     font-weight: 700;
     line-height: 1.1;
-    text-align: center;
     margin-bottom: 40px;
     padding-top: 45px;
     scroll-margin-top: 40px;
@@ -285,31 +284,30 @@ strong {
     transform: scale(1.01)
 }
 
-.section-blue {
-    background-color: #e2f3fe;
+.section-info {
     padding: 30px 0;
 }
 
-.section-blue-content {
+.section-info-content {
     padding: 30px 0 30px;
     width: 100%;
     margin-bottom: 45px
 }
 
-.section-blue-content--title {
+.section-info-content--title {
     font-size: 18px;
     line-height: 1;
     margin-bottom: 5px
 }
 
-.section-blue-content--inner {
+.section-info-content--inner {
     padding-left: 64px;
     max-width: 965px;
     margin: 0 auto;
     position: relative
 }
 
-.section-blue-content--inner::before {
+.section-info-content--inner::before {
     content: "";
     position: absolute;
     left: 0;
@@ -361,13 +359,19 @@ strong {
     line-height: 1.1;
     color: #fff;
 }
+.hero-title span {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
 
 .nav {
     display: none;
     z-index: 5;
     position: sticky;
     top: -1px;
-    height: 64px;
+    /*height: 64px;*/
     background-color: #092a5e;
     color: #fff;
     -webkit-transition: all 250ms ease-in-out;
@@ -405,8 +409,9 @@ strong {
     display: flex;
     align-items: center;
     font-size: 18px;
-    padding: 13px 0;
+    padding: 24px 0;
     letter-spacing: 0;
+    font-weight: 400;
 }
 
 .embed {
@@ -504,8 +509,8 @@ strong {
 .mb-35 {
     margin-bottom: 35px!important;
 }
-.mb-45 {
-    margin-bottom: 45px!important;
+.mb-40 {
+    margin-bottom: 40px!important;
 }
 .mb-60 {
     margin-bottom: 60px!important;
@@ -546,6 +551,21 @@ strong {
     pointer-events: initial;
     -webkit-box-shadow: 4px 3px 5px 0px rgba(0,0,0,.26);
     box-shadow: 4px 3px 5px 0px rgba(0,0,0,.26)
+}
+.section-1{
+    background: linear-gradient(
+            180deg,
+            #E2F3FE 0%,
+            #E2F3FE 10.5%,
+            #E2F3FE 50.5%,
+            #E2F3FE 90.5%,
+            #FBFDFF 100%
+    );
+
+}
+.section-3{
+    background: linear-gradient(180deg, #E2F3FE 0%, #FFF 100%);
+
 }
 
 
